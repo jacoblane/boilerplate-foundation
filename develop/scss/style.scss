@@ -1,0 +1,88 @@
+@import "foundation_settings";
+@import "foundation";
+@import "foundation-icons";
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
+
+
+.bg-primary {
+  background-color: $primary-color;
+  color: $white;
+}
+.bg-white {
+  background-color: $white;
+  color: $primary-color;
+}
+.c-white {
+  color: $white;
+}
+
+$v-r: 20px;
+
+body {
+  font-weight: 300;
+  //font-family: 'Open Sans';
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+
+
+.course-hero {
+  background: url(http://zurb.com/university/assets/courses/courses-hero-ceb360121dfe2e2c424cc01cc708ebf4.jpg) no-repeat center top $primary-color;
+  background-attachment: fixed;
+  background-size: 1700px auto;
+}
+.header {
+  padding: $v-r * 3 0;
+  margin-bottom: $v-r * 2;
+  h1 {
+    font-size: rem-calc(66);
+    padding-bottom: $v-r;
+  }
+}
+.detail.name {
+  font-size: rem-calc(25);
+}
+.logo {
+  padding-bottom: $v-r;
+}
+
+.name {
+  background-color: $white;
+  padding: 5px 15px 7px;
+  color: #000;
+}
+.sign-up {
+  //background-color: scale-color($button-bg-color, $lightness: $button-function-factor);
+  background-color: transparent;
+  border: 1px solid #fff;
+  margin: $v-r 0 0;
+}
+.articles {
+  article {
+    padding: $v-r 0;
+  }
+  .body {
+    color: $steel;
+  }
+}
+.social {
+  li {
+    margin-left: rem-calc(15);
+  }
+  a {
+    font-size: 30px;
+    border-radius: 1000px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: $white;
+    background-color: $primary-color;
+  }
+}
